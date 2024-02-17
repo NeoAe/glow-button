@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>glow</title>
+    <link rel="stylesheet" href="glow.css">
+    <style>
+        *{
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+           background: rgb(29, 1, 41);
+
+        }
+        .main{
+            display: flex;
+             align-items: center;
+           justify-content: center;
+            height: 100vh;
+
+        }
+        .button{
+            border: none;
+            outline: none;
+            height: 40px;
+            width: 100px;
+            background: #fffb00ab;
+            font-size: 15px;
+            border-radius: 25px;
+            transition: 0.3s ease;
+            
+        }
+        .button:hover {
+            cursor: pointer;
+            background: #ffc000;
+            box-shadow: 0 0 5px#ffc000,0 0 20px#ffc000,0 0 5px0#ffc000
+            ,0 0 100px#ffc000;
+            box-shadow: 0 0 100px#ffc000, 0 0 200px
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="main">
+        <input type="button" class="button" value="click me">
+    </div>
+</body>
+</html>
